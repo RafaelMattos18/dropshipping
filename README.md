@@ -13,3 +13,5 @@ Quando um pedido for faturado pela Connect, independente do fornecedor, ele não
 
 ![](/assets/descricao01.png)
 
+![](/assets/descricao01.jpg)
+
