@@ -70,5 +70,9 @@ return new XDocument(
 
 ```
 
+Caso não tenhamos estoque no sistema, geraremos o pedido de compra pra DTS (pois trabalharemos com estoque virtual) que irá nos notificar o prazo que o produto estará disponível para envio ao cliente (conforme informação anterior de campos preenchidos com dados para contato com cliente).
+
+Será solicitada para DTS via WebService um prazo para que o produto entre em estoque, desta forma, a Connect poderá negociar com o CF se o pedido prosseguirá ou não, caso de não prosseguir o ônus administrativo será da Connect.
+
 
 
