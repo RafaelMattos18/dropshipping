@@ -5,6 +5,7 @@
   * [Integrações](chapter1/integracoes.md)
   * [Logs](chapter1/logs.md)
 * [Pedidos](pedidos.md)
+  * [Status](pedidos/status.md)
 * [Estoque](estoque.md)
 * [Fretes](fretes.md)
 * [Trocas](trocas.md)
