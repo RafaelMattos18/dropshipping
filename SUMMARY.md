@@ -1,4 +1,4 @@
-# Sumário
+# Índice
 
 * [Descrição](README.md)
 * [Informações Tecnicas](chapter1.md)
