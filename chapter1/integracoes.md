@@ -36,44 +36,47 @@ Quantidade itens DropShipping que existe nota fiscal, total da soma deles, lista
 
 ```
 return new XDocument(
-  new XDeclaration("1.0", "utf-8", ""),
-  new XElement("SALESORDER",
-    new XElement("SALESTABLE",
-      new XElement("SALESNAME", pedido.Cliente.RazaoSocial.ToUpper()),
-    new XElement("DELIVERYCUSTCATEGORY", pedido.Cliente.TipoPessoa.Equals("F") ? 1 : 2),
-    new XElement("DELIVERYCUSTCNPJCPFNUM",CpfOuCnjp(pedido.Cliente.TipoPessoa.Equals("F"),pedido.Cliente.Documento)),
-    new XElement("DELIVERYCUSTIENUM", pedido.Cliente.InscricaoEstadual),
-    new XElement("ESTABLISHMENTTYPE", "OUTROS"),
-    new XElement("ICMSCONTRIBUTOR", 0),
-    new XElement("SUFRAMA", 0),
-    new XElement("SUFRAMANUMBER"),
-    new XElement("SUFRAMAPISCOFINS", 0),
-    new XElement("PHONE", pedido.Cliente.Telefone.ToUpper()),
-    new XElement("CELLULARPHONE", ""),
-    new XElement("EMAIL", pedido.Cliente.Email.ToUpper()),
-    new XElement("DS_EMAILNFE", pedido.Cliente.Email.ToUpper()),
-    new XElement("DELIVERYSTREET", pedido.Cliente.Endereco.Entrega.Logradouro.ToUpper()),
-    new XElement("DELIVERYADDRESSNUMBER", pedido.Cliente.Endereco.Entrega.Numero.ToUpper()),
-    new XElement("DELIVERYADDRESSCOMPLEMENT", (pedido.Cliente.Endereco.Entrega.Complemento?? "").ToUpper()),
-    new XElement("DELIVERYZIPCODE", pedido.Cliente.Endereco.Entrega.Cep.ToUpper()),
-    new XElement("DELIVERYDISTRICTNAME", pedido.Cliente.Endereco.Entrega.Bairro.ToUpper()),
-    new XElement("DELIVERYCITY", pedido.Cliente.Endereco.Entrega.Municipio.ToUpper()),
-    new XElement("DELIVERYSTATE", pedido.Cliente.Endereco.Entrega.Estado.ToUpper()),
-    new XElement("DELIVERYCOUNTRYREGIONID", pedido.Cliente.Endereco.Entrega.Pais.ToUpper()),
-    new XElement("PURCHORDERFORMNUM", pedido.CodigoExterno.ToUpper()),
-    new XElement("IBGECode", pedido.Cliente.Endereco.Entrega.CodigoIbge),
-    new XElement("SALESLEGALTXT",  "IMPOSTO RECOLHIDO POR SUBSTITUICAO TRIBUTARIA CFE ARTIGO 313-0 DO DECRETO N. 45.490/00"),
-    new XElement("SALESAMOUNT", dropShippingPedidoItems.Sum(s => s.PrecoUnitarioVenda * s.Quantidade)),
-    new XElement("QTY", dropShippingPedidoItems.Sum(s => s.Quantidade)),dropShippingPedidoItems.Select((s, i) =>
-      new XElement("SALESLINE", new XAttribute("LINE", i + 1),
-    new XElement("LINENUM", i + 1),
-    new XElement("ITEMID", s.Produto.CodigoFabricacao),
-    new XElement("SALESQTY", s.Quantidade),
-    new XElement("LINEAMOUNT", s.PrecoUnitarioVenda * s.Quantidade),
-    new XElement("SALESPRICE", s.PrecoUnitarioVenda)
-   )
-  )
-)));
+	new XDeclaration("1.0", "utf-8", ""),
+	new XElement("SALESORDER",
+		new XElement("SALESTABLE",
+			new XElement("SALESNAME", pedido.Cliente.RazaoSocial.ToUpper()),
+			new XElement("DELIVERYCUSTCATEGORY", pedido.Cliente.TipoPessoa.Equals("F") ? 1 : 2),
+			new XElement("DELIVERYCUSTCNPJCPFNUM",CpfOuCnjp(pedido.Cliente.TipoPessoa.Equals("F"),pedido.Cliente.Documento)),
+			new XElement("DELIVERYCUSTIENUM", pedido.Cliente.InscricaoEstadual),
+			new XElement("ESTABLISHMENTTYPE", "OUTROS"),
+			new XElement("ICMSCONTRIBUTOR", 0),
+			new XElement("SUFRAMA", 0),
+			new XElement("SUFRAMANUMBER"),
+			new XElement("SUFRAMAPISCOFINS", 0),
+			new XElement("PHONE", pedido.Cliente.Telefone.ToUpper()),
+			new XElement("CELLULARPHONE", ""),
+			new XElement("EMAIL", pedido.Cliente.Email.ToUpper()),
+			new XElement("DS_EMAILNFE", pedido.Cliente.Email.ToUpper()),
+			new XElement("DELIVERYSTREET", pedido.Cliente.Endereco.Entrega.Logradouro.ToUpper()),
+			new XElement("DELIVERYADDRESSNUMBER", pedido.Cliente.Endereco.Entrega.Numero.ToUpper()),
+			new XElement("DELIVERYADDRESSCOMPLEMENT", (pedido.Cliente.Endereco.Entrega.Complemento?? "").ToUpper()),
+			new XElement("DELIVERYZIPCODE", pedido.Cliente.Endereco.Entrega.Cep.ToUpper()),
+			new XElement("DELIVERYDISTRICTNAME", pedido.Cliente.Endereco.Entrega.Bairro.ToUpper()),
+			new XElement("DELIVERYCITY", pedido.Cliente.Endereco.Entrega.Municipio.ToUpper()),
+			new XElement("DELIVERYSTATE", pedido.Cliente.Endereco.Entrega.Estado.ToUpper()),
+			new XElement("DELIVERYCOUNTRYREGIONID", pedido.Cliente.Endereco.Entrega.Pais.ToUpper()),
+			new XElement("PURCHORDERFORMNUM", pedido.CodigoExterno.ToUpper()),
+			new XElement("IBGECode", pedido.Cliente.Endereco.Entrega.CodigoIbge),
+			new XElement("SALESLEGALTXT", "IMPOSTO RECOLHIDO POR SUBSTITUICAO TRIBUTARIA CFE ARTIGO 313-0 DO DECRETO N. 45.490/00"),
+			new XElement("SALESAMOUNT", dropShippingPedidoItems.Sum(s => s.PrecoUnitarioVenda * s.Quantidade)),
+			new XElement("QTY", dropShippingPedidoItems.Sum(s => s.Quantidade)),dropShippingPedidoItems.Select((s, i) =>
+			new XElement("SALESLINE", new XAttribute("LINE", i + 1),
+				new XElement("LINENUM", i + 1),
+					new XElement("ITEMID", s.Produto.CodigoFabricacao),
+					new XElement("SALESQTY", s.Quantidade),
+					new XElement("LINEAMOUNT", s.PrecoUnitarioVenda * s.Quantidade),
+					new XElement("SALESPRICE", s.PrecoUnitarioVenda)
+				)
+			)
+		)
+	)
+);
+
 ```
 
 
