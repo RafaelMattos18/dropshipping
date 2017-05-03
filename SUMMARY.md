@@ -7,6 +7,7 @@
 * [Pedidos](pedidos.md)
   * [Status](pedidos/status.md)
 * [Estoque](estoque.md)
+  * [Reservado Parciamente](estoque/reservado-parciamente.md)
 * [Fretes](fretes.md)
 * [Trocas](trocas.md)
 * [Devoluções](devolucoes.md)
