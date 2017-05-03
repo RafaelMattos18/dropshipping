@@ -14,17 +14,19 @@ No máximo em 10 minutos, será disparada uma ordem de compra para o fornecedor,
 
 3. Suframa pins e COFINS
 
-4. Telefone cliente, cel.  Cliente vai em branco.
+4. Telefone cliente, cel.  
 
-5. E-mail cliente.
+5. Cliente vai em branco.
 
-6. E-mail que vai ser enviado a NF para o cliente \(sempre o mesmo\)
+6. E-mail cliente.
 
-7. Endereço, número, complemento, cep, bairro.
+7. E-mail que vai ser enviado a NF para o cliente \(sempre o mesmo\)
 
-8. Cidade, estado, pais.
+8. Endereço, número, complemento, cep, bairro.
 
-9. Número pedido, código IBGE.
+9. Cidade, estado, pais.
+
+10. Número pedido, código IBGE.
 
 Texto fixo:  "**IMPOSTO RECOLHIDO POR SUBSTITUICAO TRIBUTARIA CFE ARTIGO 313-0 DO DECRETO N. 45.490/00**"
 
