@@ -1,3 +1,6 @@
+![ConnectParts](/assets/LogoConnectParts.png)
+
+---
 # DROPSHIPPING
 
 ## Descrição do projeto
