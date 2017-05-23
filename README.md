@@ -11,4 +11,7 @@ A mercadoria só será enviada ao cliente via transportadora após a ConnectPart
 
 Quando um pedido for faturado pela Connect, independente do fornecedor, ele não será despachado pela Connect, assim que faturar, será alterado o status para despachado.
 
-![](/assets/descricao01.png)
+### Fluxo Básico
+
+![Fluxo Basico](/assets/FluxoBásico.png)
+
