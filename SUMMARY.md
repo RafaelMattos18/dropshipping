@@ -1,6 +1,6 @@
 # Summary
 
-* [Descrição](inicial.md)
+* [Descrição](README.md)
 * [Informações Tecnicas](chapter1.md)
   * [Integrações](chapter1/integracoes.md)
   * [Logs](chapter1/logs.md)
