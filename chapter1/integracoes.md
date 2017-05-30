@@ -74,5 +74,14 @@ Caso não tenhamos estoque no sistema, geraremos o pedido de compra pra DTS (poi
 
 Será solicitada para DTS via WebService um prazo para que o produto entre em estoque, desta forma, a Connect poderá negociar com o CF se o pedido prosseguirá ou não, caso de não prosseguir o ônus administrativo será da Connect.
 
+## Processos
+
+### Integração Ábacos Vtex
+
+![](/assets/Fluxo DropShipping Pedido Vtex.png)
+
+### Tratamento Ábacos Pedido
+![](/assets/Tratamento Pedido Ábacos.png)
+
 
 
