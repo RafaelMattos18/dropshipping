@@ -9,14 +9,23 @@ Em paralelo será gerado um pedido de compra nos ábacos \(mesma numeração ped
 No máximo em 10 minutos, será disparada uma ordem de compra para o fornecedor, onde é dispara uma OC com todos os campos abaixo:
 
 1. Nome cliente, se cliente é pessoa jurídica ou não, CPF, inscrição estadual \(se pessoa física CPF\)
+
 2. Se é contribuinte de ICMS, tem suframa ou não, número suframa, em tipo de estabelecimento: outros
+
 3. Suframa pins e COFINS
+
 4. Telefone cliente, cel.  
+
 5. Cliente vai em branco.
+
 6. E-mail cliente.
+
 7. E-mail que vai ser enviado a NF para o cliente \(sempre o mesmo\)
+
 8. Endereço, número, complemento, cep, bairro.
+
 9. Cidade, estado, pais.
+
 10. Número pedido, código IBGE.
 
 Texto fixo:  "**IMPOSTO RECOLHIDO POR SUBSTITUICAO TRIBUTARIA CFE ARTIGO 313-0 DO DECRETO N. 45.490/00**"
