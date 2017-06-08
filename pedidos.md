@@ -15,10 +15,10 @@ Assim que o cliente **finalizar a compra**, e seu **pagamento for aprovado**, el
 
 ![](/assets/atendimentoPedidos01.png)
 
-> **Obs:** Após cliente realizar a compra, 
+> **Obs:** Após cliente realizar a compra.
 
 
-<!--![](/assets/atendimentoPedidos02.png) -->
+![](/assets/atendimentoPedidos02.png) 
 
 ![](/assets/atendimentoPedidos03.png)
 
