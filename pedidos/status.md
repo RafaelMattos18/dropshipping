@@ -33,12 +33,15 @@ Se todos os itens do pedido constarem com estoque positivo de acordo com a quant
 
 **Obs:** Lembrando que será enviado o e-mail somente no faturamento da primeira NF do pedido e somente quando houver um produto DropShipping. A Danfe (nota fiscal em papel) pode ser descartada em caso de venda onde possui apenas produto DropShipping.
 
-## Estoque Reservado Parcialmente
+## Estoque Reservado Parcialmente 
 
+[Estoque reservado parcialmente](/estoque/estoque-reservado-parcialmente.md)
+
+<!--
 Pedido onde contém mais de um item e um dos itens são pendências (não temos em estoque para faturamento ou não foi dado entrada na NF ainda):
 
 > **Obs:** Lembrando que só entenderemos que esse pedido é uma pendência se esse ele estiver listado na fila da Sales force, caso contrário poderá estar nesse status, porém está no meio do processo (fiscal dar entrada, central de operações finalizar, faturarmos).
-
+-->
 
 ### Pedidos DROP em pendência
 
@@ -78,8 +81,12 @@ A coleta é realizada pela transportadora **Rodonaves** de **Segunda/ Quarta das
 
 E a transportadora irá disponibilizar via API seu código de rastreio para que seja consumido pelos ERPs ou integradores e enviados por e-mail para o cliente acompanhar o trajeto da mercadoria.
 
+
 ## Aguardando Estoque
 
+[Aguardando estoque](/estoque/aguardando-estoque.md)
+
+<!--
 Caso esse pedido seja uma pendência ele deverá estar na fila de tickets da Sales Force(Drop-Pendência) para ser tratado como pendência e seguir com a tratativa devida, caso contrário ele está com esse status pois está aguardando recebimento fiscal dar entrada e então seguir o faturamento.
 
 ### Pedidos DROP em pendência
@@ -132,7 +139,6 @@ Esse botão cancelar serve somente para que o pedido seja cancelado na tela de l
 
 Lembrando que todo pedido cancelado deverá ser enviado um e-mail para o fornecedor informando número pedido e motivo do cancelamento.
 
-
-
+-->
 
 
