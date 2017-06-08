@@ -11,6 +11,7 @@
   * [Rastreio](fretes/rastreio.md)
 * [Trocas](trocas.md)
   * [Troca por outro modelo depois de recebido](trocas/troca-por-outro-modelo-depois-de-recebido.md)
+  * [Troca por outro produto da ConnectParts](trocas/troca-por-outro-produto-da-connectparts.md)
 * [Devoluções](devolucoes.md)
 * [Cancelamentos](cancelamentos.md)
 
