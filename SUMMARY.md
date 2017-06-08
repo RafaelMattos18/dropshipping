@@ -8,6 +8,7 @@
   * [Status](pedidos/status.md)
 * [Estoque](estoque.md)
 * [Fretes](fretes.md)
+  * [Rastreio](fretes/rastreio.md)
 * [Trocas](trocas.md)
 * [Devoluções](devolucoes.md)
 * [Cancelamentos](cancelamentos.md)
