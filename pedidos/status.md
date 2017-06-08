@@ -90,7 +90,7 @@ Caso esse pedido seja uma pendência ele deverá estar na fila de tickets da Sal
 
 * O atendimento entra em contato com o cliente com a previsão de entrega para o mesmo decidir se mantém o pedido, cancela ou gera o vale crédito.
 
-* Após o fluxo ConnectParts ser concluído, é enviado ao fornecedor a nota fiscal faturada da ConnectParts (via webservice) para que o mesmo possa emitir a nota de Remessa por conta e ordem de terceiros que deve referenciar nos dados adicionais o número da nota fiscal de venda sendo necessário o fornecedor enviar uma cópia da nf de Remessa para a ConnectParts, para que possamos encaminhar um e-mail para o cliente com informações do rastreamento da transportadora, que será enviado 24hs após a DTS nos enviar a NF de Remessa.
+* Após o fluxo ConnectParts ser concluído, é enviado ao fornecedor a nota fiscal faturada da ConnectParts (via webservice) para que o mesmo possa emitir a nota de Remessa por conta e ordem de terceiros que deve referenciar nos dados adicionais o número da nota fiscal de venda sendo necessário o fornecedor enviar uma cópia da nf de Remessa para a ConnectParts, para que possamos encaminhar um e-mail para o cliente com informações do rastreamento da transportadora, que será enviado 24hs após o fornecedor nos enviar a NF de Remessa.
 
 * Assim que o fornecedor nos enviar a NF de Remessa, devemos enviar para a transportadora a nossa NF faturada, com os seguintes dados:
 
