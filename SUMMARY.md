@@ -16,5 +16,5 @@
 * [Devoluções](devolucoes.md)
 * Recusas
   * [Recusa de produtos por avaria e deseja o mesmo produto](recusa-de-produtos-por-avaria-e-deseja-o-mesmo-produto.md)
-  * Recusa por avaria deseja outro produto Connect
+  * [Recusa por avaria deseja outro produto Connect](recusa-por-avaria-deseja-outro-produto-connect.md)
 
