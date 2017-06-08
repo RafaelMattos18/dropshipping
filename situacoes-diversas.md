@@ -34,4 +34,8 @@ O fluxo recomeça de acordo com o combinado com o cliente.
 
 ### Não saiu do fornecedor:
  
-Se no ábacos o produto de dropshipping ainda não estiver faturado, significa que não enviamos a notificação de faturamento para o fornecedor e ele ainda não emitiu a NF de remessa: dessa forma poderemos cancelar o pedido do cliente porém devemos enviar um e-mail com o STATUS: CANCELAMENTO PEDIDO XXXX-DROP, para o e-mail joyce.marafon@dtsparachoques.com.br informando que o pedido deverá ser cancelado e não enviado e então seguiremos com nosso procedimento interno de cancelamento. 
+Se no ábacos o produto de dropshipping ainda não estiver faturado, significa que não enviamos a notificação de faturamento para o fornecedor e ele ainda não emitiu a NF de remessa: dessa forma poderemos cancelar o pedido do cliente porém devemos enviar um e-mail com o STATUS: CANCELAMENTO PEDIDO XXXX-DROP[^1], informando que o pedido deverá ser cancelado e não enviado e então seguiremos com nosso procedimento interno de cancelamento. 
+
+---
+
+[^1]: DTS o e-mail: _joyce.marafon@dtsparachoques.com.br_
