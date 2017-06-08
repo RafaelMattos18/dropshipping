@@ -111,7 +111,7 @@ Caso esse pedido seja uma pendência ele deverá estar na fila de tickets da Sal
     **Quantidade de Volumes:** 1, CFOP: 5405
     
 
-Após concluído o faturamento de ambas as partes o fornecedor começa o processo logístico juntamente com as transportadoras, que deverão coletar os produtos. A coleta é realizada pela transportadora Rodonaves de Segunda/ Quarta das 14 até as 16hs e de Sexta das 14 até as 15:30hs. E a transportadora irá disponibilizar via API seu código de rastreio para que seja consumido pelos ERPs ou integradores e enviados por e-mail para o cliente acompanhar o trajeto da mercadoria.
+Após concluído o faturamento de ambas as partes o fornecedor começa o processo logístico juntamente com as transportadoras, que deverão coletar os produtos. A coleta é realizada pela transportadora **Rodonaves** de Segunda/ Quarta das 14 até as 16hs e de Sexta das 14 até as 15:30hs. E a transportadora irá disponibilizar via API seu código de rastreio para que seja consumido pelos ERPs ou integradores e enviados por e-mail para o cliente acompanhar o trajeto da mercadoria.
 
 > **Atenção:** Em caso de pendência que o atendimento entrar em contato com o cliente para informa-lo e o mesmo quiser cancelar, o atendente deverá seguir o fluxo normal de cancelamento (ticket Sales force, cancelar ERP, plataformas, devoluções...) porém o atendente deverá cancelar esse pedido no SIGECO. 
 
