@@ -42,7 +42,7 @@ Pedido onde contém mais de um item e um dos itens são pendências (não temos 
 
 ### Pedidos DROP em pendência
 
-* Quando notificarmos o FORNECEDOR com o pedido de compra e não houver estoque, através de webservice o fornecedor deverá comunicar pedidos que não possuem estoque e sua previsão de atendimento.
+* Quando notificarmos o fornecedor com o pedido de compra e não houver estoque, através de webservice o fornecedor deverá comunicar pedidos que não possuem estoque e sua previsão de atendimento.
 * Na sales force existe uma fila chamada Pendências – Drop, onde ouvidoria tratará e nessa fila irá conter tickets relacionados a cada pedido que conter pendências com itens de dropshipping. Nesses tickets haverá as seguintes informações: 
     1. Número do pedido; 
     2. Item em pendência (código do item ); 
@@ -51,7 +51,7 @@ Pedido onde contém mais de um item e um dos itens são pendências (não temos 
 
 * O atendimento entra em contato com o cliente com a previsão de entrega para o mesmo decidir se mantém o pedido, cancela ou gera o vale crédito.
 
-* Após o fluxo Connect ser concluído, é enviado ao fornecedor a nota fiscal faturada da Connect (via webservice) para que o mesmo possa emitir a nota de Remessa por conta e ordem de terceiros que deve referenciar nos dados adicionais o número da nota fiscal de venda sendo necessário o fornecedor enviar uma cópia da nf de Remessa para a Connect, para que possamos encaminhar um e-mail para o cliente com informações do rastreamento da Rodonaves, que será enviado 24hs após a DTS nos enviar a NF de Remessa.
+* Após o fluxo ConnectParts ser concluído, é enviado ao fornecedor a nota fiscal faturada da Connect (via webservice) para que o mesmo possa emitir a nota de Remessa por conta e ordem de terceiros que deve referenciar nos dados adicionais o número da nota fiscal de venda sendo necessário o fornecedor enviar uma cópia da nf de Remessa para a ConnectParts, para que possamos encaminhar um e-mail para o cliente com informações do rastreamento da Transportadora, que será enviado 24hs após o fornecedor nos enviar a NF de Remessa.
 
 * Assim que o fornecedor nos enviar a NF de Remessa, devemos enviar para a transportadora a nossa NF faturada, com os seguintes dados: 
 
@@ -74,7 +74,7 @@ Pedido onde contém mais de um item e um dos itens são pendências (não temos 
 
 Após concluído o faturamento de ambas as partes o fornecedor começa o processo logístico juntamente com as transportadoras, que deverão coletar os produtos. 
 
-A coleta é realizada pela transportadora Rodonaves de **Segunda/ Quarta das 14 até as 16hs e de Sexta das 14 até as 15:30hs**. 
+A coleta é realizada pela transportadora **Rodonaves** de **Segunda/ Quarta das 14 até as 16hs e de Sexta das 14 até as 15:30hs**. 
 
 E a transportadora irá disponibilizar via API seu código de rastreio para que seja consumido pelos ERPs ou integradores e enviados por e-mail para o cliente acompanhar o trajeto da mercadoria.
 
@@ -84,7 +84,7 @@ Caso esse pedido seja uma pendência ele deverá estar na fila de tickets da Sal
 
 ### Pedidos DROP em pendência
 
-* Quando notificarmos o FORNECEDOR com o pedido de compra e não houver estoque, através de webservice o fornecedor deverá comunicar pedidos que não possuem estoque e sua previsão de atendimento.
+* Quando notificarmos o fornecedor com o pedido de compra e não houver estoque, através de webservice o fornecedor deverá comunicar pedidos que não possuem estoque e sua previsão de atendimento.
 
 * Na Sales force existe uma fila chamada Pendências – Drop, onde ouvidoria tratará e nessa fila irá conter tickets relacionados a cada pedido que conter pendências com itens de DropShipping. Nesses tickets haverá as seguintes informações: (1. Número do pedido; 2. Item em pendência (código do item); 3. Data de Previsão 4. Status (fornecedor ira nos informar o motivo pelo qual não tem o produto), para que o responsável no atendimento siga com as tratativas ao cliente.
 
