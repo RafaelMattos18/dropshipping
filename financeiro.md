@@ -19,7 +19,7 @@ A ConnectParts fechará relatório quinzenal contendo as transações realizadas
 
 Após ambas as partes derem ok nas vendas/devoluções entre e-mails, financeiro deverá encaminhar um e-mail para equipe de cobrança emitir uma NF com as devoluções e encaminhar essa NF novamente para que o financeiro envie para o fornecedor. A cobrança deverá ser acompanhada pela equipe de Cobrança normalmente, porém o prazo não será de 30 dias e sim 50 dias e então o fornecedor irá nos enviar um boleto para pagamento (descontando as devoluções).
 
-A ConnectParts fará as NF’s de devoluções para o fornecedor em dois pontos de corte, dias 10 e 25 de cada mês. Assim que trocas der entrada na NF deverá encaminhar para o financeiro e então emitirão NF de devolução para DTS.
+A ConnectParts fará as NF’s de devoluções para o fornecedor em dois pontos de corte, dias 10 e 25 de cada mês. Assim que trocas der entrada na NF deverá encaminhar para o financeiro e então emitirão NF de devolução para o fornecedor.
 
 ![](/assets/atendimentoPedidos11.png)
 
