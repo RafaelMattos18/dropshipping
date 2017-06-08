@@ -10,6 +10,7 @@
 * [Fretes](fretes.md)
   * [Rastreio](fretes/rastreio.md)
 * [Trocas](trocas.md)
+  * [Troca por outro modelo depois de recebido](trocas/troca-por-outro-modelo-depois-de-recebido.md)
 * [Devoluções](devolucoes.md)
 * [Cancelamentos](cancelamentos.md)
 
