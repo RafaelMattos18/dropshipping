@@ -23,7 +23,7 @@ Mercadoria em transito a ser devolvida a transportadora onde deverá ser entregu
 
 Ao emitirmos a **NF de coleta**, em dados adicionais, deverá ter o motivo e o responsável por essa troca, devolução, cancelamento para que então no final do mês o setor de troca consiga apontar os custos de frete e cobrar os devidos responsáveis.
 
-Apenas a NF-e de coleta deve possuir informação da NF-e de Remessa da DTS
+Apenas a NF-e de coleta deve possuir informação da NF-e de Remessa do fornecedor.
 
 As informações que precisarão ser colocadas nos dados adicionais da NF de coleta, como número NF remessa e data da emissão, estarão disponíveis na SalesForce (conforme foto abaixo) 
 
@@ -33,7 +33,7 @@ As informações que precisarão ser colocadas nos dados adicionais da NF de col
 
 ### Cliente entra em contato para executar troca ou devolução.
 
-Toda troca e devolução dos produtos DropShipping, quando cliente entrar em contato com a connect para informar o motivo da troca ou devolução o analista da connect deverá fazer uma análise criteriosa para garantir o motivo correto pela troca e devolução e emitir a NF de acompanhamento de devolução. Assim que o produto chegar no fornecedor, quando o fornecedor nos informar que o produto chegou deverá nos informar após uma análise deles o motivo real da devolução/troca e então nosso analista deverá confrontar a informação do nosso motivo com o do fornecedor, para então podermos cobrar os responsáveis.
+Toda troca e devolução dos produtos DropShipping, quando cliente entrar em contato com a ConnectParts para informar o motivo da troca ou devolução o analista da connect deverá fazer uma análise criteriosa para garantir o motivo correto pela troca e devolução e emitir a NF de acompanhamento de devolução. Assim que o produto chegar no fornecedor, quando o fornecedor nos informar que o produto chegou deverá nos informar após uma análise deles o motivo real da devolução/troca e então nosso analista deverá confrontar a informação do nosso motivo com o do fornecedor, para então podermos cobrar os responsáveis.
 
 **Quinzenalmente fica sob responsabilidade do Troca emitir um relatório dos motivos de devoluções e em caso de termos responsáveis o fornecedor ou Transportadora, reportar esse relatório para que o nosso Financeiro faça essa cobrança**.
 
