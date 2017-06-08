@@ -20,4 +20,5 @@
   * [Recusa de produto e deseja cancelamento](recusa-de-produto-e-deseja-cancelamento.md)
   * [Recusa de produto e deseja outro modelo para-choque](recusa-de-produto-e-deseja-outro-modelo-para-choque.md)
 * [Situações Diversas](situacoes-diversas.md)
+* [Financeiro](financeiro.md)
 
