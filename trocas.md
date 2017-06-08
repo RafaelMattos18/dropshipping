@@ -29,3 +29,23 @@ As informações que precisarão ser colocadas nos dados adicionais da NF de col
 
 ![](/assets/atendimentoPedidos10.png)
 
+<!--Todo contato feito no Fornecedor DTS, será joyce@dtsparachoques.com.br / telefone 11 4446 4100-->
+
+### Cliente entra em contato para executar troca ou devolução.
+
+Toda troca e devolução dos produtos DropShipping, quando cliente entrar em contato com a connect para informar o motivo da troca ou devolução o analista da connect deverá fazer uma análise criteriosa para garantir o motivo correto pela troca e devolução e emitir a NF de acompanhamento de devolução. Assim que o produto chegar no fornecedor, quando o fornecedor nos informar que o produto chegou deverá nos informar após uma análise deles o motivo real da devolução/troca e então nosso analista deverá confrontar a informação do nosso motivo com o do fornecedor, para então podermos cobrar os responsáveis.
+
+**Quinzenalmente fica sob responsabilidade do Troca emitir um relatório dos motivos de devoluções e em caso de termos responsáveis o fornecedor ou Transportadora, reportar esse relatório para que o nosso Financeiro faça essa cobrança**.
+
+## Definição de comunicação
+
+Será necessário um acordo entre a ConnectParts e o Fornecedor para estabelecer a comunicação.
+
+Particularidades da **DTS**.[^1]
+
+---
+
+[^1]: Todas as recusas/trocas que chegarem na DTS, a forma de comunicação será via e-mail, onde a DTS enviará um e-mail para: _dropshipping@connectparts.com.br_. Quando DTS entrar em contato com Connect para informar que recebeu o produto do cliente lá, deverá enviar um e-mail e no Assunto deverá conter, **Assunto:** Deverá conter o Número Pedido - **Corpo  do E-mail:** Deverá conter número nf da coleta ( acompanhamento de devolução ) / DK devolvido / Quantidade devolvida / Estado que recebeu o produto. O prazo de solicitação de coleta por parte da Rodonaves é de até 10 dias úteis. A Rodonaves entra em contato com o cliente para agendar a coleta. **Contato com Rodonaves:** **Ana Claudia** (14) 3311.7163 _comercial.380@rte.com.br_ . **Júnior** (14)3311.7155 _comercial2.380@rte.com.br_.
+
+
+
