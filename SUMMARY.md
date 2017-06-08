@@ -18,4 +18,5 @@
   * [Recusa de produtos por avaria e deseja o mesmo produto](recusa-de-produtos-por-avaria-e-deseja-o-mesmo-produto.md)
   * [Recusa por avaria deseja outro produto Connect](recusa-por-avaria-deseja-outro-produto-connect.md)
   * [Recusa de produto e deseja cancelamento](recusa-de-produto-e-deseja-cancelamento.md)
+  * [Recusa de produto e deseja outro modelo para-choque](recusa-de-produto-e-deseja-outro-modelo-para-choque.md)
 
