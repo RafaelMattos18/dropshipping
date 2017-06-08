@@ -2,9 +2,9 @@
 
 Os produtos serão expostos no site www.connectparts.com.br através da integração.
 
-Ábacos/Vtex e caberá ao integrador Calipso imputar o estoque de produtos da DTS no Ábacos, utilizando como base comum o Código de Fornecedor. Caberá ao Ábacos, através do integrador Ábacos/Vtex, enviar a informação de estoque à Loja Virtual da Connect Parts. Após integrado e exposto o anuncio no site, ao ser feita uma venda destes itens, o integrador ábacos Vtex consome esta compra e imputa no Ábacos normalmente.
+Ábacos/Vtex e caberá ao integrador imputar o estoque de produtos do fornecedor no Ábacos, utilizando como base comum o Código de Fornecedor. Caberá ao Ábacos, através do integrador Ábacos/Vtex, enviar a informação de estoque à Loja Virtual da ConnectParts. Após integrado e exposto o anuncio no site, ao ser feita uma venda destes itens, o integrador ábacos Vtex consome esta compra e imputa no Ábacos normalmente.
 
-Em paralelo será gerado um pedido de compra nos ábacos \(mesma numeração pedido Vtex-DTS\), de acordo com tabela de preços \(custo + R$15,00 embalagem\) fornecida pelo fornecedor \(já possuímos a tabela\). Qualquer alteração desta tabela deve ser comunicada com antecedência de 20 dias.
+Em paralelo será gerado um pedido de compra nos ábacos \(mesma numeração pedido Vtex-Fornecedor\), de acordo com tabela de preços \(custo + R$15,00 embalagem\) fornecida pelo fornecedor \(já possuímos a tabela\). Qualquer alteração desta tabela deve ser comunicada com antecedência de 20 dias.
 
 No máximo em 10 minutos, será disparada uma ordem de compra para o fornecedor, onde é dispara uma OC com todos os campos abaixo:
 
