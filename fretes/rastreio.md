@@ -22,7 +22,7 @@ Equipe Connect Parts!
 
 Para realizar o rastreamento da mercadoria deverão acessar o site abaixo com CPF do cliente número da NF de venda emitida na Connect:
 
-Clique neste link: [Rastreie sua encomenda](http://www.rte.com.br/servicos/rastreie-sua-encomenda/)
+**Clique neste link**: [Rastreie sua encomenda](http://www.rte.com.br/servicos/rastreie-sua-encomenda/).
 
 
 
