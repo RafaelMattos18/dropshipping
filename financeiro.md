@@ -17,7 +17,7 @@ A NF enviada pelo **fornecedor** para a **ConnectParts** virá sempre com o cód
 
 A ConnectParts fechará relatório quinzenal contendo as transações realizadas com os produtos de DropShipping nos 15 (quinze) dias anteriores à data do fechamento, disponibilizando o aludido relatório ao fornecedor em até 02 (dois) dias úteis do fechamento da quinzena para confrontar com o relatório emitido pelo próprio fornecedor. Se houverem contestações, ambas empresas deverão chegar em um acordo até o 5 dias úteis para poderem prosseguir com o fechamento.
 
-Após ambas as partes derem ok nas vendas/devoluções entre e-mails, financeiro deverá encaminhar um e-mail para equipe de cobrança emitir uma NF com as devoluções e encaminhar essa NF novamente para que o financeiro envie para a DTS. A cobrança deverá ser acompanhada pela equipe de Cobrança normalmente, porém o prazo não será de 30 dias e sim 50 dias e então a DTS irá nos enviar um boleto para pagamento (descontando as devoluções).
+Após ambas as partes derem ok nas vendas/devoluções entre e-mails, financeiro deverá encaminhar um e-mail para equipe de cobrança emitir uma NF com as devoluções e encaminhar essa NF novamente para que o financeiro envie para o fornecedor. A cobrança deverá ser acompanhada pela equipe de Cobrança normalmente, porém o prazo não será de 30 dias e sim 50 dias e então a DTS irá nos enviar um boleto para pagamento (descontando as devoluções).
 
 Novo alinhamento 05/06: Connect fará as NF’s de devoluções para a DTS em dois pontos de corte, dias 10 e 25 de cada mês. Assim que trocas der entrada na NF deverá encaminhar para o financeiro e então emitirão NF de devolução para DTS.
 
