@@ -130,7 +130,7 @@ Esse botão cancelar serve somente para que o pedido seja cancelado na tela de l
 
 ![](/assets/atendimentoPedidos08.png)
 
-Lembrando que todo pedido cancelado deverá ser enviado um e-mail para a DTS informando número pedido e motivo do cancelamento.
+Lembrando que todo pedido cancelado deverá ser enviado um e-mail para o fornecedor informando número pedido e motivo do cancelamento.
 
 
 
