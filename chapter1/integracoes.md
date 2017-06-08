@@ -83,6 +83,13 @@ Caso não tenhamos estoque no sistema, geraremos o pedido de compra pra DTS (poi
 
 Será solicitada para DTS via WebService um prazo para que o produto entre em estoque, desta forma, a Connect poderá negociar com o CF se o pedido prosseguirá ou não, caso de não prosseguir o ônus administrativo será da Connect.
 
+Quanto batermos na API da DTS para consultar o estoque e o estoque for igual ou menor que 10 unidades, iremos atualizar como 0 nosso sistema para não vendermos e não termos perigo de não conseguir atender o cliente.
+
+Dentro do Sigeco 2.0 em T.I/Admin> Integrações > Log Dropshipping> existe o controle dos status de cada etapa do Dropshipping.
+Se um status não alterar em 24hs úteis (exceto sábado, domingo e feriado) ficará em vermelho para acompanhamento e cobrança. 
+
+![](/assets/atendimentoPedidos09.png)
+
 ## Processos
 
 ### Integração Ábacos Vtex
