@@ -19,3 +19,13 @@ Nota Fiscal Connect emitir para acompanhar a devolução - coleta deverá conter
 <!-- 
 Mercadoria em transito a ser devolvida a transportadora onde deverá ser entregue na DPF AUTO PECAS LTDA situada Rua Osasco,1129 – Anhanguera km 33 – Parque Empresarial – Cajamar/SP. CNPJ: 05910160/000191, conforme NF de remessa por conta e ordem número (identificar número remessa emitida pela DTS) emitida dia: ____________. Foi alinhado entre o atendimento e transportadora que o atendimento enviará para a transportadora quando for solicitado a coleta o motivo pelo qual o cliente está devolvendo e a transportadora irá anexar na NF para entrega ao fornecedor.
 -->
+
+
+Ao emitirmos a **NF de coleta**, em dados adicionais, deverá ter o motivo e o responsável por essa troca, devolução, cancelamento para que então no final do mês o setor de troca consiga apontar os custos de frete e cobrar os devidos responsáveis.
+
+Apenas a NF-e de coleta deve possuir informação da NF-e de Remessa da DTS
+
+As informações que precisarão ser colocadas nos dados adicionais da NF de coleta, como número NF remessa e data da emissão, estarão disponíveis na SalesForce (conforme foto abaixo) 
+
+![](/assets/atendimentoPedidos10.png)
+
