@@ -40,10 +40,6 @@ Pedido onde contém mais de um item e um dos itens são pendências (não temos 
 > **Obs:** Lembrando que só entenderemos que esse pedido é uma pendência se esse ele estiver listado na fila da Sales force, caso contrário poderá estar nesse status, porém está no meio do processo (fiscal dar entrada, central de operações finalizar, faturarmos).
 
 
-
-
-### Pedidos DROP em pendência
-
 * Quando notificarmos o fornecedor com o pedido de compra e não houver estoque, através de webservice o fornecedor deverá comunicar pedidos que não possuem estoque e sua previsão de atendimento.
 * Na sales force existe uma fila chamada Pendências – Drop, onde ouvidoria tratará e nessa fila irá conter tickets relacionados a cada pedido que conter pendências com itens de dropshipping. Nesses tickets haverá as seguintes informações: 
     1. Número do pedido; 
