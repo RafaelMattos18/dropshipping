@@ -14,8 +14,6 @@
   * [Troca por outro produto da ConnectParts](trocas/troca-por-outro-produto-da-connectparts.md)
   * [Cancelamentos](cancelamentos.md)
   * [Compra recebida com produto errado ](trocas/compra-recebida-com-produto-errado.md)
-* [Devoluções](devolucoes.md)
-* [Recusas](recusas.md)
   * [Recusa de produtos por avaria e deseja o mesmo produto](recusa-de-produtos-por-avaria-e-deseja-o-mesmo-produto.md)
   * [Recusa por avaria deseja outro produto Connect](recusa-por-avaria-deseja-outro-produto-connect.md)
   * [Recusa de produto e deseja cancelamento](recusa-de-produto-e-deseja-cancelamento.md)
