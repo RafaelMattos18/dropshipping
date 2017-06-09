@@ -21,6 +21,5 @@
   * [Cliente comprou, transportadora não conseguiu realizar a entrega](trocas/cliente-comprou-transportadora-nao-conseguiu-realizar-a-entrega.md)
   * [Cliente comprou, não recusou no ato da entrega, porém produto chegou quebrado](trocas/cliente-comprou-nao-recusou-no-ato-da-entrega-porem-produto-chegou-quebrado.md)
   * [Cliente comprou, mas não recebeu ainda, quer trocar por outro modelo, produto ou estorno](trocas/cliente-comprou-mas-nao-recebeu-ainda-quer-trocar-por-outro-modelo-produto-ou-estorno.md)
-* [Situações Diversas](situacoes-diversas.md)
 * [Financeiro](financeiro.md)
 

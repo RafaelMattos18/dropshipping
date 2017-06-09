@@ -13,7 +13,7 @@ O fornecedor deverá nos enviar um relatório de todos os produtos de devoluçã
 Os valores pagos ao fornecedor corresponderão ao custo do produto e serviços de manuseio e embalagem, deverão ser pagos via boleto bancário sendo o cedente o **fornecedor** e o sacado a **ConnectParts**. O boleto bancário será faturado com a totalidade de produtos vendidos pela **ConnectParts** de 01 a 15 e de 16 a 31 de cada mês, com vencimento para 50 dias após o fechamento da fatura.
 
 Quando o fornecedor nos enviar a nota referente aos custos do produto e serviço para darmos entrada, será gerado automaticamente um pedido de compra no ábacos.
-A NF enviada pelo **fornecedor** para a **ConnectParts** virá sempre com o código do fornecedor <!--820061-->. Esse custo de produto e serviço na ConnectParts refere-se ao DK DR002 e o custo unitário é de R$15,00.
+A NF enviada pelo **fornecedor** para a **ConnectParts** virá sempre com o código do fornecedor 820061. Esse custo de produto e serviço na ConnectParts refere-se ao DK DR002 e o custo unitário é de R$15,00.
 
 A ConnectParts fechará relatório quinzenal contendo as transações realizadas com os produtos de DropShipping nos 15 (quinze) dias anteriores à data do fechamento, disponibilizando o aludido relatório ao fornecedor em até 02 (dois) dias úteis do fechamento da quinzena para confrontar com o relatório emitido pelo próprio fornecedor. Se houverem contestações, ambas empresas deverão chegar em um acordo até o 5 dias úteis para poderem prosseguir com o fechamento.
 
