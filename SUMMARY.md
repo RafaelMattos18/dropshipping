@@ -18,6 +18,7 @@
   * [Recusa por avaria deseja outro produto Connect](recusa-por-avaria-deseja-outro-produto-connect.md)
   * [Recusa de produto e deseja cancelamento](recusa-de-produto-e-deseja-cancelamento.md)
   * [Recusa de produto e deseja outro modelo para-choque](recusa-de-produto-e-deseja-outro-modelo-para-choque.md)
+  * [Cliente comprou, transportadora não conseguiu realizar a entrega](trocas/cliente-comprou-transportadora-nao-conseguiu-realizar-a-entrega.md)
 * [Situações Diversas](situacoes-diversas.md)
 * [Financeiro](financeiro.md)
 
