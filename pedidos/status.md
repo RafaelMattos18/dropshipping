@@ -76,6 +76,26 @@ A coleta é realizada pela transportadora **Rodonaves** de **Segunda/ Quarta das
 
 E a transportadora irá disponibilizar via API seu código de rastreio para que seja consumido pelos ERPs ou integradores e enviados por e-mail para o cliente acompanhar o trajeto da mercadoria.
 
+> **Atenção:** Em caso de pendência que o atendimento entrar em contato com o cliente para informa-lo e o mesmo quiser cancelar, o atendente deverá seguir o fluxo normal de cancelamento (ticket Sales force, cancelar ERP, plataformas, devoluções...) porém o atendente deverá cancelar esse pedido no SIGECO. 
+
+
+**Sigeco 2.0: Atendimento>ábacos>Pedidos digite o número do pedido do cliente**.
+
+
+![](/assets/atendimentoPedidos06.png)
+
+
+No centro inferior da tela, existe um botão cancelar pedido onde o atendente deverá cancelá-lo, porém não cancelará no ERP nem nas plataformas, o processo de cancelamento deverá ser seguido como de costume ( ticket sales force, cancelar ERP, plataformas, devoluções...)
+
+![](/assets/atendimentoPedidos07.png)
+
+Esse botão cancelar serve somente para que o pedido seja cancelado na tela de logs:
+
+![](/assets/atendimentoPedidos08.png)
+
+Lembrando que todo pedido cancelado deverá ser enviado um e-mail para o fornecedor informando número pedido e motivo do cancelamento.
+
+
 
 ## Aguardando Estoque
 
