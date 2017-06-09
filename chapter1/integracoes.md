@@ -90,6 +90,8 @@ Quanto batermos na API do fornecedor para consultar o estoque e o estoque for ig
 Dentro do Sigeco 2.0 em T.I/Admin> Integrações > Log Dropshipping> existe o controle dos status de cada etapa do Dropshipping.
 Se um status não alterar em 24hs úteis (exceto sábado, domingo e feriado) ficará em vermelho para acompanhamento e cobrança. 
 
+Para saber mais sobre os Logs [clique aqui](/chapter1/logs.md).
+
 ![](/assets/atendimentoPedidos09.png)
 
 ## Processos
@@ -100,6 +102,73 @@ Se um status não alterar em 24hs úteis (exceto sábado, domingo e feriado) fic
 
 ### Tratamento Ábacos Pedido
 ![](/assets/Tratamento Pedido Ábacos.png)
+
+
+## Informações para desenvolvedores
+
+### Restrições
+
+O fornecedor vai precisar de uma ou mais APIs para comunicação com a ConnectParts, são necessários os seguintes Endpoint:
+
+* Para receber pedidos, os dados serão enviados padrão JSon
+	* Fornecedor irá nos informar dos dados que ele precisa para gerar um pedido de compras
+ 
+* Para receber dados de NF, os dados serão enviados padrão JSon
+	* Precisa passar quais dados ele precisa para executar o faturamento nf de remessa.
+
+* Para disponibilizar quantidade de estoque dos produtos, padrão de retorno JSon.
+	* Filtro de um produto por vez, uma lista de produtos (todos)
+	* Filtro de data de modificação de estoque. 
+
+* Notificar nf de remessa (faturamento do fornecedor)
+	* Fornecedor deverá enviar um post para API /NotaFiscalRemessa/Inserir, informando os dados abaixo:
+
+
+
+```
+{
+	"PedidoCodigo": "string",
+  	"Rastreio": "string",
+  	"Chave": "string",
+  	"NotificacaoTransportadora": true,
+  	"Numero": "string",
+  	"DataEmissao": "string",
+  	"DataDespacho": "2017-06-08T18:30:43.261Z"
+} 
+```
+
+
+
+* Notificar despacho de mercadoria ()
+	* Fornecedor deverá enviar um post para API /NotaFiscalRemessa/NotificarDespacho, informando os dados abaixo:
+
+
+
+```
+{
+	"PedidoCodigo": "string",
+	"DataDespacho": "2017-06-08T18:30:43.315Z"	
+} 
+```
+
+
+
+API que irá fazer um post para ConnectParts quando o fornecedor não tiver estoque do produto, deverá enviar estes dados abaixo:
+
+
+```
+{
+	PedidoFornecedorCodigo (string),
+	FabricacaoCodigo (string),
+	FornecedorCodigo (string),
+	Motivo (string),
+	DataPrevisao (string),
+	DataConfirmacao (string, optional)
+}
+```
+
+
+
 
 
 
