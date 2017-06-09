@@ -1,3 +1,5 @@
+
+
 ## Estoque Reservado Parcialmente
 
 Pedido onde contém mais de um item e um dos itens são pendências (não temos em estoque para faturamento ou não foi dado entrada na NF ainda):

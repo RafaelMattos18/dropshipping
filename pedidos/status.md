@@ -33,15 +33,14 @@ Se todos os itens do pedido constarem com estoque positivo de acordo com a quant
 
 **Obs:** Lembrando que será enviado o e-mail somente no faturamento da primeira NF do pedido e somente quando houver um produto DropShipping. A Danfe (nota fiscal em papel) pode ser descartada em caso de venda onde possui apenas produto DropShipping.
 
-## Estoque Reservado Parcialmente 
+## Estoque Reservado Parcialmente
 
-[Estoque reservado parcialmente](/estoque/estoque-reservado-parcialmente.md)
-
-<!--
 Pedido onde contém mais de um item e um dos itens são pendências (não temos em estoque para faturamento ou não foi dado entrada na NF ainda):
 
 > **Obs:** Lembrando que só entenderemos que esse pedido é uma pendência se esse ele estiver listado na fila da Sales force, caso contrário poderá estar nesse status, porém está no meio do processo (fiscal dar entrada, central de operações finalizar, faturarmos).
--->
+
+
+
 
 ### Pedidos DROP em pendência
 
