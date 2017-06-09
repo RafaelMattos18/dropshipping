@@ -25,9 +25,7 @@ As informações que precisarão ser colocadas nos dados adicionais da NF de col
 
 ![](/assets/atendimentoPedidos10.png)
 
-<!--Todo contato feito no Fornecedor DTS, será joyce@dtsparachoques.com.br / telefone 11 4446 4100-->
-
-### Cliente entra em contato para executar troca ou devolução.
+Todo contato feito no Fornecedor DTS, será joyce@dtsparachoques.com.br / telefone 11 4446 4100
 
 Toda troca e devolução dos produtos DropShipping, quando cliente entrar em contato com a ConnectParts para informar o motivo da troca ou devolução o analista da connect deverá fazer uma análise criteriosa para garantir o motivo correto pela troca e devolução e emitir a NF de acompanhamento de devolução. Assim que o produto chegar no fornecedor, quando o fornecedor nos informar que o produto chegou deverá nos informar após uma análise deles o motivo real da devolução/troca e então nosso analista deverá confrontar a informação do nosso motivo com o do fornecedor, para então podermos cobrar os responsáveis.
 
