@@ -146,8 +146,8 @@ O fornecedor vai precisar de uma ou mais APIs para comunicação com a ConnectPa
 
 ```
 {
-	"PedidoCodigo": "string",
-	"DataDespacho": "2017-06-08T18:30:43.315Z"	
+	PedidoCodigo (string),
+	DataDespacho (string)
 } 
 ```
 
