@@ -22,7 +22,7 @@ O fluxo recomeça de acordo com o combinado com o cliente.
 
 * Se no ábaco o produto já estiver faturado, significa que já enviamos a notificação de faturamento para o fornecedor e ele já emitiu a NF de remessa para mercadoria sair de lá. Dessa forma deverão orientar o cliente a recusar a mercadoria no ato da entrega
  
-### Cliente recusar no ato da entrega.
+Cliente recusou no ato da entrega.
 
 * Cliente faz contato com Connect informando que não deseja mais o produto. Connect orienta o cliente a recusar no ato da entrega e fazer uma ressalva no verso da NF com o motivo. No momento da ligação atendimento deverá alinhar com cliente o que ele deseja, troca o u cancelamento.
 
