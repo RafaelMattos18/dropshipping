@@ -10,7 +10,7 @@ Nos casos de pedido de ressarcimento pelo terceiro comprador por recusa no ato d
 
 Nota Fiscal que a ConnectPrts emitir para acompanhar a devolução/coleta deverá conter em dados adicionais (dados fornecedores)o texto abaixo: 
 * Mercadoria em transito a ser devolvida a transportadora onde deverá ser entregue ao fornecedor. 
-    * Na DPF AUTO PECAS LTDA situada Rua Osasco,1129 – Anhanguera km 33 – Parque Empresarial – Cajamar/SP. CNPJ: 05910160/000191, conforme NF de remessa por conta e ordem número (identificar número remessa emitida pela DTS) emitida dia: ____________. Foi alinhado entre o atendimento e transportadora que o atendimento enviará para a transportadora quando for solicitado a coleta o motivo pelo qual o cliente está devolvendo e a transportadora irá anexar na NF para entrega ao fornecedor.
+    * Ao DPF AUTO PECAS LTDA situada Rua Osasco,1129 – Anhanguera km 33 – Parque Empresarial – Cajamar/SP. CNPJ: 05910160/000191, conforme NF de remessa por conta e ordem número (identificar número remessa emitida pela DTS) emitida dia: ____________. Foi alinhado entre o atendimento e transportadora que o atendimento enviará para a transportadora quando for solicitado a coleta o motivo pelo qual o cliente está devolvendo e a transportadora irá anexar na NF para entrega ao fornecedor.
 
 * O atendimento ConnecParts enviará para a transportadora quando for solicitado a coleta o motivo pelo qual o cliente está devolvendo e a transportadora irá anexar na NF para entrega ao fornecedor.
 
