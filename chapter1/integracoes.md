@@ -127,13 +127,15 @@ O fornecedor vai precisar de uma ou mais APIs para comunicação com a ConnectPa
 
 ```
 {
-	"PedidoCodigo": "string",
-  	"Rastreio": "string",
-  	"Chave": "string",
-  	"NotificacaoTransportadora": true,
-  	"Numero": "string",
-  	"DataEmissao": "string",
-  	"DataDespacho": "2017-06-08T18:30:43.261Z"
+	PedidoCodigo (string),
+	Rastreio (string, optional),
+	Chave (string)stringMax. Length:44,
+	NotificacaoTransportadora (boolean, optional),
+	Numero (string, optional)stringMax. Length:9,
+	DataEmissao (string),
+	DataDespacho (string, optional),
+	DataConfirmacao (string, optional),
+	DataCriacaoRegistro (string, optional)
 } 
 ```
 
