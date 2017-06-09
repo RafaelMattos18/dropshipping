@@ -7,8 +7,6 @@
 * [Pedidos](pedidos.md)
   * [Status](pedidos/status.md)
 * [Estoque](estoque.md)
-  * [Aguardando estoque](estoque/aguardando-estoque.md)
-  * [Estoque reservado parcialmente](estoque/estoque-reservado-parcialmente.md)
 * [Fretes](fretes.md)
   * [Rastreio](fretes/rastreio.md)
 * [Trocas](trocas.md)
