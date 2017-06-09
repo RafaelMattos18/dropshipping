@@ -19,3 +19,4 @@ Quando um pedido dropshipping for faturado pela Connect, independente do fornece
 <!--![Fluxo Basico](/assets/FluxoBásico.png)-->
 ![Fluxo Basico](/assets/FluxoBásicoNew.png)
 
+
