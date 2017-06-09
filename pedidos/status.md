@@ -81,7 +81,7 @@ E a transportadora irá disponibilizar via API seu código de rastreio para que 
 
 [Aguardando estoque](/estoque/aguardando-estoque.md)
 
-<!--
+
 Caso esse pedido seja uma pendência ele deverá estar na fila de tickets da Sales Force(Drop-Pendência) para ser tratado como pendência e seguir com a tratativa devida, caso contrário ele está com esse status pois está aguardando recebimento fiscal dar entrada e então seguir o faturamento.
 
 ### Pedidos DROP em pendência
@@ -134,6 +134,5 @@ Esse botão cancelar serve somente para que o pedido seja cancelado na tela de l
 
 Lembrando que todo pedido cancelado deverá ser enviado um e-mail para o fornecedor informando número pedido e motivo do cancelamento.
 
--->
 
 
