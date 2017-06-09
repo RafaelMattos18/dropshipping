@@ -5,4 +5,4 @@ Estoque dos produtos dos fornecedores serão alimentados no estoque virtual e qu
 
 ## Falta de item em estoque 
 
-Para comunicar a falta de item em estoque de produto de DROPSHIPPING vendido, o FORNECEDOR deverá informar na forma definida pela CONNECT PARTS, sem prejuízo de outras informações, em até 12 horas após o recebimento da informação da venda do produto, em dias úteis.
+Para comunicar a falta de item em estoque de produto de DropShippingvendido, o FORNECEDOR deverá informar na forma definida pela ConnectParts (Será gerado um ticket na Salles Force), sem prejuízo de outras informações, em até 12 horas após o recebimento da informação da venda do produto, em dias úteis.
