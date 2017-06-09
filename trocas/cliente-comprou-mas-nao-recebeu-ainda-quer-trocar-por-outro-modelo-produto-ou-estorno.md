@@ -9,3 +9,7 @@ Se no ábaco o produto já estiver faturado, significa que já enviamos a notifi
 A transportadora leva de volta o produto ao fornecedor com a mesma nota fiscal que acompanha o produto, que ao receber comunica a ConnectParts que irá gerar uma NF de devolução de mercadoria que “anulará” a NF de venda, e então esse saldo de estoque no sistema deverá ser alimentado no estoque troca devolução fornecedor (para que a equipe de cobrança consiga emitir uma NF de devolução ao fornecedor quando financeiro solicitar) ,  gerando saldo no sistema e crédito ao cliente. 
 
 Atendimento deverá seguir de acordo com o que o cliente solicitar: troca ou estorno.
+
+## Não saiu do fornecedor
+
+Se no ábacos o produto de dropshipping ainda não estiver faturado, significa que não enviamos a notificação de faturamento para o fornecedor e ele ainda não emitiu a NF de remessa: dessa forma poderemos cancelar o pedido do cliente porém devemos enviar um e-mail com o STATUS: CANCELAMENTO PEDIDO XXXX-DROP, para o e-mail joyce.marafon@dtsparachoques.com.br informando que o pedido deverá ser cancelado e não enviado e então seguiremos com nosso procedimento interno de cancelamento.
