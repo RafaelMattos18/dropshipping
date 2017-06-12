@@ -21,17 +21,17 @@ Após ambas as partes derem ok nas vendas/devoluções entre e-mails, financeiro
 
 A ConnectParts fará as NF’s de devoluções para o fornecedor em dois pontos de corte, dias 10 e 25 de cada mês. Assim que trocas der entrada na NF deverá encaminhar para o financeiro e então emitirão NF de devolução para o fornecedor.
 
-![](/assets/atendimentoPedidos11.png)
+![](http://developers.connectparts.com.br/imagens/atendimentoPedidos11.png)
 
 
 O atraso no pagamento pela ConnectParts dos produtos de DropShipping fornecidos pelo fornecedor implicará na incidência de multa de 2% (dois por cento) do valor da respectiva Nota Fiscal, acrescida de juros moratórios de 3% (três por cento) ao mês, calculados até a data do efetivo pagamento.
 
 Em Sigeco 2.0: Financeiro>Dropshipping > Devoluções o sistema mostra todas as devoluções que existem de Dropshipping (ConnectParts deu entrada na NF):
 
-![](/assets/atendimentoPedidos12.png)
+![](http://developers.connectparts.com.br/imagens/atendimentoPedidos12.png)
 
 Em Sigeco 2.0: Financeiro>Dropshipping > Vendas o sistema mostra todas as vendas que existem de Dropshipping (ConnectParts emitiu NF de venda):
 
-![](/assets/atendimentoPedidos13.png)
+![](http://developers.connectparts.com.br/imagens/atendimentoPedidos13.png)
 
 

@@ -23,7 +23,7 @@ Apenas a NF-e de coleta deve possuir informação da NF-e de Remessa do forneced
 
 As informações que precisarão ser colocadas nos dados adicionais da NF de coleta, como número NF remessa e data da emissão, estarão disponíveis na SalesForce (conforme foto abaixo) 
 
-![](/assets/atendimentoPedidos10.png)
+![](http://developers.connectparts.com.br/imagens/atendimentoPedidos10.png)
 
 Todo contato feito no Fornecedor DTS, será joyce@dtsparachoques.com.br / telefone 11 4446 4100
 
