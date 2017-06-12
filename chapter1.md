@@ -172,7 +172,7 @@ API que irá fazer um post para ConnectParts quando o fornecedor não tiver esto
 }
 ```
 
-##LOGs
+## LOGS
 
 ### Funcionalidade
 
