@@ -3,7 +3,7 @@
 
 ## Integrações
 
-Os produtos serão expostos no site www.connectparts.com.br através da integração.
+Os produtos serão expostos no site [www.connectparts.com.br](https://www.connectparts.com.br) através da integração.
 
 ### Integração Ábacos / Vtex
 
@@ -95,16 +95,16 @@ Se um status não alterar em 24hs úteis (exceto sábado, domingo e feriado) fic
 
 Para saber mais sobre os Logs [clique aqui](/chapter1/logs.md).
 
-![](/assets/atendimentoPedidos09.png)
+![](http://developers.connectparts.com.br/imagens/atendimentoPedidos09.png)
 
 ### Processos
 
 #### Integração Ábacos Vtex
 
-![](/assets/Fluxo DropShipping Pedido Vtex.png)
+![](http://developers.connectparts.com.br/imagens/Fluxo DropShipping Pedido Vtex.png)
 
 #### Tratamento Ábacos Pedido
-![](/assets/Tratamento Pedido Ábacos.png)
+![](http://developers.connectparts.com.br/imagens/Tratamento Pedido Ábacos.png)
 
 
 ### Informações para desenvolvedores
@@ -181,7 +181,7 @@ Apresentar todo o processo do pedido em uma linha do tempo.
 
 #### Time Line
 
-![](/assets/statusDropShipping.png)
+![](http://developers.connectparts.com.br/imagens/statusDropShipping.png)
 
 **Time line** indicando todo o trajeto feito pelo pedido.
 
