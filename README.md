@@ -1,5 +1,4 @@
 
-![](https://images-submarino.b2w.io/marketplace/logo/grande/8677036000116.jpg)
 
 ---
 
@@ -18,6 +17,6 @@ Quando um pedido dropshipping for faturado pela Connect, independente do fornece
 ### Fluxo Básico
 
 <!--![Fluxo Basico](/assets/FluxoBásico.png)-->
-![Fluxo Basico](/assets/FluxoBásicoNew.png)
+![Fluxo Basico](http://developers.connectparts.com.br/imagens/FluxoBásicoNew.png)
 
 
