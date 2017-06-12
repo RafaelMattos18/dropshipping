@@ -3,7 +3,7 @@
 
 ## Integrações
 
-Os produtos serão expostos no site [www.connectparts.com.br](https://www.connectparts.com.br){:target="_blank"} através da integração.
+Os produtos serão expostos no site [www.connectparts.com.br](https://www.connectparts.com.br) através da integração.
 
 ### Integração Ábacos / Vtex
 
