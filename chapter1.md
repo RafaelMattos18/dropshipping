@@ -93,7 +93,7 @@ Quanto batermos na API do fornecedor para consultar o estoque e o estoque for ig
 Dentro do Sigeco 2.0 em T.I/Admin> Integrações > Log Dropshipping> existe o controle dos status de cada etapa do Dropshipping.
 Se um status não alterar em 24hs úteis (exceto sábado, domingo e feriado) ficará em vermelho para acompanhamento e cobrança. 
 
-Para saber mais sobre os Logs [clique aqui](/chapter1/logs.md).
+**A descrições sobre LOGS estão logo abaixo**.
 
 ![](http://developers.connectparts.com.br/imagens/atendimentoPedidos09.png)
 
