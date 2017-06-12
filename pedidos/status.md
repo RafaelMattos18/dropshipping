@@ -27,9 +27,9 @@ Se todos os itens do pedido constarem com estoque positivo de acordo com a quant
 
 **Segue:**
 
-![](/assets/atendimentoPedidos04.png)
+![](http://developers.connectparts.com.br/imagens/atendimentoPedidos04.png)
 
-![](/assets/atendimentoPedidos05.png)
+![](http://developers.connectparts.com.br/imagens/atendimentoPedidos05.png)
 
 **Obs:** Lembrando que será enviado o e-mail somente no faturamento da primeira NF do pedido e somente quando houver um produto DropShipping. A Danfe (nota fiscal em papel) pode ser descartada em caso de venda onde possui apenas produto DropShipping.
 
@@ -82,16 +82,16 @@ E a transportadora irá disponibilizar via API seu código de rastreio para que 
 **Sigeco 2.0: Atendimento>ábacos>Pedidos digite o número do pedido do cliente**.
 
 
-![](/assets/atendimentoPedidos06.png)
+![](http://developers.connectparts.com.br/imagens/atendimentoPedidos06.png)
 
 
 No centro inferior da tela, existe um botão cancelar pedido onde o atendente deverá cancelá-lo, porém não cancelará no ERP nem nas plataformas, o processo de cancelamento deverá ser seguido como de costume ( ticket sales force, cancelar ERP, plataformas, devoluções...)
 
-![](/assets/atendimentoPedidos07.png)
+![](http://developers.connectparts.com.br/imagens/atendimentoPedidos07.png)
 
 Esse botão cancelar serve somente para que o pedido seja cancelado na tela de logs:
 
-![](/assets/atendimentoPedidos08.png)
+![](http://developers.connectparts.com.br/imagens/atendimentoPedidos08.png)
 
 Lembrando que todo pedido cancelado deverá ser enviado um e-mail para o fornecedor informando número pedido e motivo do cancelamento.
 
@@ -138,16 +138,16 @@ Após concluído o faturamento de ambas as partes o fornecedor começa o process
 **Sigeco 2.0: Atendimento>ábacos>Pedidos digite o número do pedido do cliente**.
 
 
-![](/assets/atendimentoPedidos06.png)
+![](http://developers.connectparts.com.br/imagens/atendimentoPedidos06.png)
 
 
 No centro inferior da tela, existe um botão cancelar pedido onde o atendente deverá cancelá-lo, porém não cancelará no ERP nem nas plataformas, o processo de cancelamento deverá ser seguido como de costume ( ticket sales force, cancelar ERP, plataformas, devoluções...)
 
-![](/assets/atendimentoPedidos07.png)
+![](http://developers.connectparts.com.br/imagens/atendimentoPedidos07.png)
 
 Esse botão cancelar serve somente para que o pedido seja cancelado na tela de logs:
 
-![](/assets/atendimentoPedidos08.png)
+![](http://developers.connectparts.com.br/imagens/atendimentoPedidos08.png)
 
 Lembrando que todo pedido cancelado deverá ser enviado um e-mail para o fornecedor informando número pedido e motivo do cancelamento.
 
