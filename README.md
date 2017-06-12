@@ -17,6 +17,6 @@ Quando um pedido dropshipping for faturado pela Connect, independente do fornece
 ### Fluxo Básico
 
 <!--![Fluxo Basico](/assets/FluxoBásico.png)-->
-![Fluxo Basico](http://developers.connectparts.com.br/imagens/FluxoBásicoNew.png)
+![](http://developers.connectparts.com.br/imagens/FluxoBásicoNew.png)
 
 
