@@ -1,4 +1,5 @@
-![](/assets/LogoConnectParts.png)
+
+![](https://images-submarino.b2w.io/marketplace/logo/grande/8677036000116.jpg)
 
 ---
 
