@@ -12,8 +12,6 @@ Quando um pedido dropshipping for faturado pela Connect, independente do fornece
 
 ### Fluxo Básico
 
-![](http://developers.connectparts.com.br/imagens/FluxoBásicoNew.png)
-
 ![](http://developers.connectparts.com.br/imagens/fluxoBasicoFornecedor.png)
 
 
@@ -71,6 +69,13 @@ O recebimento fiscal seguirá com o procedimento de armazenamento dos documentos
 Dessa forma, após inserida as informações na planilha compartilhada pelo fiscal, a equipe da central de operações deverá criar a agenda no wis, finalizar a nota e alocar no endereço vendável no WIS DP01010001, deixando o pedido pronto iniciar manuseio.
 
 Para cada DK de parachoque faturado deverá ser emitido a NF com um volume.
+
+
+## Fluxo Interno
+
+![](http://developers.connectparts.com.br/imagens/FluxoBásicoNew.png)
+
+
 
 
 
