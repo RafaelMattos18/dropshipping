@@ -201,8 +201,6 @@ Apresentar todo o processo do pedido em uma linha do tempo.
     * Concluído, fornecedor informa a Connect o despacho da mercadoria
 
 
-
-
 ## Processo
 
 Sempre que subir um novo dk ou alterar preço de custo  para  venda de Produtos Dropshipping, deverá incluír no sistema Sigeco, para que esse produto seja atualizado o preço de custo, e caso seja produto novo, deverá ser inserido estoque de acordo com estoque do fornecedor.
@@ -216,5 +214,6 @@ DK CONNECT / COD; FABRICANTE / $ CUSTO ( Acrescidos o valor de embalagem e manus
 
 
 
+![](http://developers.connectparts.com.br/imagens/descricao03.png)
 
 
