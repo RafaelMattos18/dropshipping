@@ -14,12 +14,12 @@ Na Vtex será apenas um único pedido contendo todos os produtos.Já no ábacos 
 
 Assim que o cliente **finalizar a compra**, e seu **pagamento for aprovado**, ele recebe um e-mail de confirmação de compra, caso esse pedido contenha um item DropShipping, haverá a informação sobre entregas em dias diferentes. 
 
-<!-- ![](http://developers.connectparts.com.br/imagens/atendimentoPedidos01.png) > **Obs:** Após cliente realizar a compra. -->
-
 
 ![](http://developers.connectparts.com.br/imagens/atendimentoPedidos02.png) 
 
+
 ![](http://developers.connectparts.com.br/imagens/atendimentoPedidos03.png)
+
 
 O pedido entrará com o **status pré analise**, onde será analisado pela equipe de Análise de risco de acordo com a política da empresa e assim que for **liberado** seguirão seus status.]]
 
