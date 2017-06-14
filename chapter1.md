@@ -104,6 +104,7 @@ Se um status não alterar em 24hs úteis (exceto sábado, domingo e feriado) fic
 ![](http://developers.connectparts.com.br/imagens/Fluxo DropShipping Pedido Vtex.png)
 
 #### Tratamento Ábacos Pedido
+
 ![](http://developers.connectparts.com.br/imagens/Tratamento Pedido Ábacos.png)
 
 
