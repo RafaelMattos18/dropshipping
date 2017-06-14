@@ -15,6 +15,12 @@ Quando um pedido dropshipping for faturado pela Connect, independente do fornece
 ![](http://developers.connectparts.com.br/imagens/FluxoBásicoNew.png)
 
 
+![](http://developers.connectparts.com.br/imagens/FluxoBásicoNew.png)
+
+
+
+
+
 ## CFOP utilizados para emissão de NF
 
 * ConnectParts irá emitir NF de venda para nosso cliente: 
