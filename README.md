@@ -16,3 +16,23 @@ Quando um pedido dropshipping for faturado pela Connect, independente do fornece
 ![](http://developers.connectparts.com.br/imagens/FluxoBásicoNew.png)
 
 
+
+
+## CFOP utilizados para emissão de NF
+
+* ConnectParts irá emitir NF de venda para nosso cliente: 
+    * **5.405** produtos dentro estado SP 
+    * **6.403** produtos fora do estado de SP 
+    * **6.108** produtos não contribuintes fora do estado 
+    * **6.102** produtos para estados que não tem protocolo 41/2008 - acordo da ST entre os estados (CE,RO e MS).
+
+* Connect emitir NF de coleta para Transportadora coletar mercadoria (acompanhamento de produto) no cliente e entregar no fornecedor: Outras Saídas - 1949 dentro estado / 2949 fora estado – Iremos emitir uma NF de Remessa pois não tem tributação, apenas para transitar mercadoria e não precisaremos cancelar caso cliente não esteja no local da coleta poderá ser coletado em outro dia.
+
+* Connect emitir NF de devoluções de mercadoria em casos de troca/devoluções: 1.411 (dentro estado) 2.411 (fora estado).
+
+* Fornecedor emitir NF de acompanhamento de mercadoria até o cliente: 5923 e 6923
+
+* Fornecedor emitir NF de venda para Connect: 5403
+
+
+
