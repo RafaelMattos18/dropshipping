@@ -43,6 +43,26 @@ Quando um pedido dropshipping for faturado pela Connect, independente do fornece
 
 * Fornecedor emitir NF de venda para Connect: 
     * **5403**
+    
+## Recebimento Fiscal
+
+O fornecedor nos envia a nota de venda (compra do produto pra ConnectParts) juntamente com o XML da mesma por e-mail _recebimentofiscal.dropshipping@connectparts.com.br_ para ser importado e conferido pela equipe de recebimento fiscal o XML com o pedido que foi importado para o ábacos.
+ 
+
+Se houver qualquer divergência na nota fiscal de entrada com pedido de compras (ábacos) o processo deverá ser pausado e passado para que o comprador verifique a divergência.
+
+Após entrada da nota pela equipe do Fiscal, eles deverão alimentar o Sigeco _>Financeir>Dropshipping>Entrada de DOCS_ - Entrada de notas DropShipping apontando que foi finalizada a entrada.
+
+![](http://developers.connectparts.com.br/imagens/descricao01.png)
+
+ 
+
+O recebimento fiscal seguirá com o procedimento de armazenamento dos documentos (pedido x nota fiscal) como é feito normalmente.
+
+
+![](http://developers.connectparts.com.br/imagens/descricao02.png)
+
+
 
 
 
