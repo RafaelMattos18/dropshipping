@@ -24,7 +24,7 @@ Assim que o cliente **finalizar a compra**, e seu **pagamento for aprovado**, el
 O pedido entrará com o **status pré analise**, onde será analisado pela equipe de Análise de risco de acordo com a política da empresa e assim que for **liberado** seguirão seus status.]]
 
 
-## Tempo Processos:
+## Tempo Processos
 
 |Responsável.|	Ação|
 |---|---|
