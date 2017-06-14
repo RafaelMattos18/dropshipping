@@ -16,7 +16,7 @@ Quando um pedido dropshipping for faturado pela Connect, independente do fornece
 
 
 
-
+---
 
 
 ## CFOP utilizados para emissão de NF
