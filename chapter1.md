@@ -203,6 +203,17 @@ Apresentar todo o processo do pedido em uma linha do tempo.
 
 
 
+## Processo
+
+Sempre que subir um novo dk ou alterar preço de custo  para  venda de Produtos Dropshipping, deverá incluír no sistema Sigeco, para que esse produto seja atualizado o preço de custo, e caso seja produto novo, deverá ser inserido estoque de acordo com estoque do fornecedor.
+
+> **Sigeco 2.0 > T.I / Admin / Importar Planilha de Custos**.
+>
+> Selecione o fornecedor e suba a planilha para o sistema. Feito isso clique em enviar Planilha. A Planilha deverá conter as informações em anexo.
+DK CONNECT / COD; FABRICANTE / $ CUSTO ( Acrescidos o valor de embalagem e manuseio )
+>
+> **Em ativo:** Utilize 1 caso queira que consulte o estoque e alimente o ábacos ou 0 para não.
+
 
 
 
