@@ -12,10 +12,7 @@ Quando um pedido dropshipping for faturado pela Connect, independente do fornece
 
 ### Fluxo Básico
 
-<!--![Fluxo Basico](/assets/FluxoBásico.png)-->
 ![](http://developers.connectparts.com.br/imagens/FluxoBásicoNew.png)
-
-
 
 
 ## CFOP utilizados para emissão de NF
