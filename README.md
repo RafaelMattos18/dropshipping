@@ -55,12 +55,16 @@ Após entrada da nota pela equipe do Fiscal, eles deverão alimentar o Sigeco _>
 
 ![](http://developers.connectparts.com.br/imagens/descricao01.png)
 
- 
-
 O recebimento fiscal seguirá com o procedimento de armazenamento dos documentos (pedido x nota fiscal) como é feito normalmente.
 
-
 ![](http://developers.connectparts.com.br/imagens/descricao02.png)
+
+## Central de Operações
+
+Dessa forma, após inserida as informações na planilha compartilhada pelo fiscal, a equipe da central de operações deverá criar a agenda no wis, finalizar a nota e alocar no endereço vendável no WIS DP01010001, deixando o pedido pronto iniciar manuseio.
+
+Para cada DK de parachoque faturado deverá ser emitido a NF com um volume.
+
 
 
 
