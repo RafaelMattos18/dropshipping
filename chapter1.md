@@ -11,7 +11,7 @@ Os produtos serão expostos no site [www.connectparts.com.br](https://www.connec
 
 Em paralelo será gerado um pedido de compra nos ábacos \(mesma numeração pedido Vtex-Fornecedor\), de acordo com tabela de preços \(custo + R$15,00 embalagem\) fornecida pelo fornecedor \(já possuímos a tabela\). Qualquer alteração desta tabela deve ser comunicada com antecedência de 20 dias.
 
-**No máximo em 10 minutos**, será disparada uma ordem de compra para o fornecedor, onde é dispara uma OC com todos os campos abaixo:
+**No máximo em 03 minutos**, será disparada uma ordem de compra para o fornecedor, onde é dispara uma OC com todos os campos abaixo:
 
 1. Nome cliente, se cliente é pessoa jurídica ou não, CPF, inscrição estadual \(se pessoa física CPF\)
 
