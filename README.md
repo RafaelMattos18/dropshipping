@@ -73,7 +73,7 @@ Para cada DK de parachoque faturado deverá ser emitido a NF com um volume.
 
 ## Fluxo Interno
 
-![](http://developers.connectparts.com.br/imagens/FluxoBásicoNew.png)
+![](http://developers.connectparts.com.br/imagens/FluxoBasicoNew.png)
 
 
 
