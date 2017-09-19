@@ -1,15 +1,14 @@
 # Informações Técnicas
 
-
 ## Integrações
 
 Os produtos serão expostos no site [www.connectparts.com.br](https://www.connectparts.com.br) através da integração.
 
-### Integração Ábacos / Vtex
+### Integração ERP / Plataforma Cloud E-Commerce
 
-Ábacos/Vtex e caberá ao integrador imputar o estoque de produtos do fornecedor no Ábacos, utilizando como base comum o Código de Fornecedor. Caberá ao Ábacos, através do integrador Ábacos/Vtex, enviar a informação de estoque à Loja Virtual da ConnectParts. Após integrado e exposto o anuncio no site, ao ser feita uma venda destes itens, o integrador ábacos Vtex consome esta compra e imputa no Ábacos normalmente.
+Caberá ao integrador imputar o estoque de produtos do fornecedor no ERP, utilizando como base comum o Código de Fornecedor. Caberá ao ERP, através do integrador ERP/Plataforma E-commerce, enviar a informação de estoque à Loja Virtual da ConnectParts. Após integrado e exposto o anuncio no site, ao ser feita uma venda destes itens, o integrador ERP/Plataforma E-commerce consome esta compra e imputa no ERP normalmente.
 
-Em paralelo será gerado um pedido de compra nos ábacos \(mesma numeração pedido Vtex-Fornecedor\), de acordo com tabela de preços \(custo + R$15,00 embalagem\) fornecida pelo fornecedor \(já possuímos a tabela\). Qualquer alteração desta tabela deve ser comunicada com antecedência de 20 dias.
+Em paralelo será gerado um pedido de compra nos ERP, de acordo com tabela de preços fornecida pelo fornecedor. Qualquer alteração desta tabela deve ser comunicada com antecedência de 20 dias.
 
 **No máximo em 03 minutos**, será disparada uma ordem de compra para o fornecedor, onde é dispara uma OC com todos os campos abaixo:
 
@@ -99,11 +98,11 @@ Se um status não alterar em 24hs úteis (exceto sábado, domingo e feriado) fic
 
 ### Processos
 
-#### Integração Ábacos Vtex
+#### Integração ERP / E-Commerce
 
 ![](http://developers.connectparts.com.br/imagens/Fluxo DropShipping Pedido Vtex.png)
 
-#### Tratamento Ábacos Pedido
+#### Tratamento ERP Pedido
 
 ![](http://developers.connectparts.com.br/imagens/Tratamento Pedido Ábacos.png)
 
@@ -199,20 +198,4 @@ Apresentar todo o processo do pedido em uma linha do tempo.
 7. **Rastreamento enviado ao cliente**
     * Dados enviados ao cliente, este status é alterado quando o sistema conseguir fazer 3 notificações supracitadas.
 8. **Despachada pelo fornecedor**
-    * Concluído, fornecedor informa a Connect o despacho da mercadoria
-
-
-## Processo
-
-Sempre que subir um novo dk ou alterar preço de custo  para  venda de Produtos Dropshipping, deverá incluír no sistema Sigeco, para que esse produto seja atualizado o preço de custo, e caso seja produto novo, deverá ser inserido estoque de acordo com estoque do fornecedor.
-
-_**Sigeco 2.0 > T.I / Admin / Importar Planilha de Custos**._
-
-_Selecione o fornecedor e suba a planilha para o sistema. Feito isso clique em enviar Planilha. A Planilha deverá conter as informações em anexo.
-DK CONNECT / COD; FABRICANTE / $ CUSTO (Acrescidos o valor de embalagem e manuseio)_
-
-_**Em ativo:** Utilize 1 caso queira que consulte o estoque e alimente o ábacos ou 0 para não._
-
-![](http://developers.connectparts.com.br/imagens/descricao03.png)
-
-
+    * Concluído, fornecedor informa a Connect o despacho da mercadoria.
