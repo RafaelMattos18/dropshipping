@@ -25,7 +25,7 @@ O pedido entrará com o **status pré analise**, onde será analisado pela equip
 
 ## Regras
 
-* Iremos notificar o fornecedor (**DTS**) antes de enviar a nota fiscal de venda, iremos verificar se há um pedido de compra do mesmo pedido de venda. 
+* Iremos notificar o fornecedor (**DTS**) antes de enviar a nota fiscal de venda, verificaremos se há um pedido de compra do mesmo pedido de venda. 
 
 ## Tempo Processos
 
