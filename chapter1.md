@@ -10,7 +10,7 @@ Caberá ao integrador imputar o estoque de produtos do fornecedor no ERP, utiliz
 
 Em paralelo será gerado um pedido de compra nos ERP, de acordo com tabela de preços fornecida pelo fornecedor. Qualquer alteração desta tabela deve ser comunicada com antecedência de 20 dias.
 
-**No máximo em 03 minutos**, será disparada uma ordem de compra para o fornecedor, onde é dispara uma OC com todos os campos abaixo:
+**No máximo em 03 minutos**, será disparada uma ordem de compra para o fornecedor (_sempre via integrações_), onde é dispara uma OC com todos os campos abaixo:
 
 1. Nome cliente, se cliente é pessoa jurídica ou não, CPF, inscrição estadual \(se pessoa física CPF\)
 
