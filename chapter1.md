@@ -113,68 +113,60 @@ Se um status não alterar em 24hs úteis (exceto sábado, domingo e feriado) fic
 
 É de responsabilidade do **fornecedor** disponibilizar uma ou mais APIs para comunicação com a ConnectParts, serão necessários os seguintes Endpoint:
 
-* **1º Endpoint** - Para receber pedidos, os dados serão enviados padrão JSon
+* **1º Endpoint- Para receber pedidos, os dados serão enviados padrão JSon**
 	* Fornecedor irá nos informar dos dados que ele precisa para gerar um pedido de compras
 	
  
-* **2º Endpoint** - Para receber dados de NF, os dados serão enviados padrão JSon
+* **2º Endpoint - Para receber dados de NF, os dados serão enviados padrão JSon**
 	* Precisa passar quais dados ele precisa para executar o faturamento nf de remessa.
 	
 
-* **3º Endpoint** - Para disponibilizar quantidade de estoque dos produtos, padrão de retorno JSon.
+* **3º Endpoint - Para disponibilizar quantidade de estoque dos produtos, padrão de retorno JSon**
 	* Filtro de um produto por vez, uma lista de produtos (todos)
 	* Filtro de data de modificação de estoque. 
 	
 
-* **4º Endpoint** - Notificar nf de remessa (faturamento do fornecedor)
+* **4º Endpoint - Notificar nf de remessa (faturamento do fornecedor)**
 	* **Fornecedor** deverá enviar um post para API /NotaFiscalRemessa/Inserir, informando os dados abaixo:
 
+	```
+	{
+		PedidoCodigo (string),
+		Rastreio (string, optional),
+		Chave (string)stringMax. Length:44,
+		NotificacaoTransportadora (boolean, optional),
+		Numero (string, optional)stringMax. Length:9,
+		DataEmissao (string),
+		DataDespacho (string, optional),
+		DataConfirmacao (string, optional),
+		DataCriacaoRegistro (string, optional)
+	} 
+	```
 
-
-```
-{
-	PedidoCodigo (string),
-	Rastreio (string, optional),
-	Chave (string)stringMax. Length:44,
-	NotificacaoTransportadora (boolean, optional),
-	Numero (string, optional)stringMax. Length:9,
-	DataEmissao (string),
-	DataDespacho (string, optional),
-	DataConfirmacao (string, optional),
-	DataCriacaoRegistro (string, optional)
-} 
-```
-
-
-
-* Notificar despacho de mercadoria ()
+* **5º Endpoint - Notificar despacho de mercadoria**
 	* **Fornecedor** deverá enviar um post para API /NotaFiscalRemessa/NotificarDespacho, informando os dados abaixo:
 
+	```
+	{
+		PedidoCodigo (string),
+		DataDespacho (string)
+	} 
+	```
+	
+* ** 6º Endpoint - Notificar estoque de produto**
+	* API irá fazer um post para ConnectParts quando o fornecedor não tiver **estoque do produto**, deverá enviar estes dados abaixo:
 
-
-```
-{
-	PedidoCodigo (string),
-	DataDespacho (string)
-} 
-```
-
-
-
-API do **fornecedor** que irá fazer um post para ConnectParts quando o fornecedor não tiver estoque do produto, deverá enviar estes dados abaixo:
-
-
-```
-{
-	PedidoFornecedorCodigo (string),
-	FabricacaoCodigo (string),
-	FornecedorCodigo (string),
-	Motivo (string),
-	DataPrevisao (string),
-	DataConfirmacao (string, optional)
-}
-```
-
+	```
+	{
+		PedidoFornecedorCodigo (string),
+		FabricacaoCodigo (string),
+		FornecedorCodigo (string),
+		Motivo (string),
+		DataPrevisao (string),
+		DataConfirmacao (string, optional)
+	}
+	```
+	
 ## LOGS
 
 ### Funcionalidade
