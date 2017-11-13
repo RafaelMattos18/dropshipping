@@ -111,20 +111,23 @@ Se um status não alterar em 24hs úteis (exceto sábado, domingo e feriado) fic
 
 #### Restrições
 
-O fornecedor vai precisar de uma ou mais APIs para comunicação com a ConnectParts, são necessários os seguintes Endpoint:
+É de responsabilidade do **fornecedor** disponibilizar uma ou mais APIs para comunicação com a ConnectParts, serão necessários os seguintes Endpoint:
 
-* Para receber pedidos, os dados serão enviados padrão JSon
+* **1º Endpoint** - Para receber pedidos, os dados serão enviados padrão JSon
 	* Fornecedor irá nos informar dos dados que ele precisa para gerar um pedido de compras
+	
  
-* Para receber dados de NF, os dados serão enviados padrão JSon
+* **2º Endpoint** - Para receber dados de NF, os dados serão enviados padrão JSon
 	* Precisa passar quais dados ele precisa para executar o faturamento nf de remessa.
+	
 
-* Para disponibilizar quantidade de estoque dos produtos, padrão de retorno JSon.
+* **3º Endpoint** - Para disponibilizar quantidade de estoque dos produtos, padrão de retorno JSon.
 	* Filtro de um produto por vez, uma lista de produtos (todos)
 	* Filtro de data de modificação de estoque. 
+	
 
-* Notificar nf de remessa (faturamento do fornecedor)
-	* Fornecedor deverá enviar um post para API /NotaFiscalRemessa/Inserir, informando os dados abaixo:
+* **4º Endpoint** - Notificar nf de remessa (faturamento do fornecedor)
+	* **Fornecedor** deverá enviar um post para API /NotaFiscalRemessa/Inserir, informando os dados abaixo:
 
 
 
@@ -145,7 +148,7 @@ O fornecedor vai precisar de uma ou mais APIs para comunicação com a ConnectPa
 
 
 * Notificar despacho de mercadoria ()
-	* Fornecedor deverá enviar um post para API /NotaFiscalRemessa/NotificarDespacho, informando os dados abaixo:
+	* **Fornecedor** deverá enviar um post para API /NotaFiscalRemessa/NotificarDespacho, informando os dados abaixo:
 
 
 
