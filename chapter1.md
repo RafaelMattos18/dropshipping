@@ -158,7 +158,7 @@ O fornecedor vai precisar de uma ou mais APIs para comunicação com a ConnectPa
 
 
 
-API que irá fazer um post para ConnectParts quando o fornecedor não tiver estoque do produto, deverá enviar estes dados abaixo:
+API do **fornecedor** que irá fazer um post para ConnectParts quando o fornecedor não tiver estoque do produto, deverá enviar estes dados abaixo:
 
 
 ```
