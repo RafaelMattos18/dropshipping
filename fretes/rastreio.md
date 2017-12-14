@@ -15,7 +15,7 @@ Para localizar sua mercadoria, clique em Rastrear em seguida digite seu CPF e n�
 >
 Por favor não responda esse e-mail, para maiores informações, entre em contato conosco pelos nossos canais de atendimento.
 >
-**Obs.:** Rastreio estará disponível após 24 horas da emissão da nota fiscal.
+**Obs.:** Rastreio estará disponível após **24 horas úteis** da emissão da nota fiscal.
 >
 Equipe Connect Parts!
 
