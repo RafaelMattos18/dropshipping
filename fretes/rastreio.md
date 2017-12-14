@@ -2,7 +2,7 @@
 
 O rastreamento das mercadorias que saírem da connect estará disponível nos sistemas (_ábacos/sales force_) normalmente.
 
-O rastreamento no site da transportadora deverá ser feito pelo número da NF de venda emitida pela Connect e estará disponível no sistema assim que a transportadora coletar a mercadoria no fornecedor e atualizar o rastreamento (até 24hs após o despacho pelo fornecedor). Nesse prazo de 24 hs será enviado por e-mail esse rastreamento ao cliente com a seguinte informação:
+O rastreamento no site da transportadora deverá ser feito pelo número da NF de venda emitida pela Connect e estará disponível no sistema assim que a transportadora coletar a mercadoria no fornecedor e atualizar o rastreamento (até 24hs após o despacho pelo fornecedor). Nesse prazo de **24hs úteis** será enviado por e-mail esse rastreamento ao cliente com a seguinte informação:
 
 E-mail enviado ao cliente informando rastreamento Dropshipping:
 
