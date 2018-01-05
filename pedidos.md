@@ -25,7 +25,18 @@ O pedido entrará com o **status pré analise**, onde será analisado pela equip
 
 ## Regras
 
-* Iremos notificar o fornecedor (**DTS**) antes de enviar a nota fiscal de venda, verificaremos se há um pedido de compra do mesmo pedido de venda. 
+* Iremos notificar o fornecedor (**DTS**) antes de enviar a nota fiscal de venda, verificaremos se há um pedido de compra do mesmo pedido de venda.
+
+    **Envio de email**
+    Nos e-mails transacionais de ‘Confirmação de compra’ haverá a seguinte descrição no corpo dos e-mails
+    **E-mail contendo produto na modalidade DropShipping**: _Por questões operacionais relativas à logística é possível que a postagem e entrega dos produtos ocorram em dias diferentes._
+    **E-mail não contendo produto na modalidade DropShipping** :_Adicione o e-mail vendas@connectparts.com.br como confiável e confira sempre sua caixa de spam e lixo eletrônico para não perder nenhuma informação sobre seu pedido ou acesse seu cadastro no www.connectparts.com.br_
+
+* Afim de não gerar uma demanda extra criando coleções para esses produtos criei à regra com base na informação oriunda do campo ‘modal’.
+
+* É imprescindível que, em caso de novos produtos nessa modalidade e que o campo modal seja vazio ou diferente de ‘Colchões’, que me informem de imediato para alterações no template de e-mail.
+
+
 
 ## Tempo Processos
 
