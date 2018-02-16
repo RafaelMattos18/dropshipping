@@ -34,8 +34,10 @@ Em paralelo será gerado um pedido de compra nos ERP, de acordo com tabela de pr
 
 Texto fixo:  "**IMPOSTO RECOLHIDO POR SUBSTITUICAO TRIBUTARIA CFE ARTIGO 313-0 DO DECRETO N. 45.490/00**"
 
-Quantidade itens DropShipping que existe nota fiscal, total da soma deles, lista de itens \(_contém código fornecedor, quantidade, preço venda, multiplicação: qtde x preço venda_\).
+<!--colunas que virao para cada item-->
+<!-- **retirada** Quantidade itens DropShipping que existe nota fiscal, total da soma deles, lista de itens \(_contém código fornecedor, quantidade, preço venda, multiplicação: qtde x preço venda_\).-->
 
+<!--
 **Abaixo código que está no sistema:**
 
 ```
@@ -82,6 +84,7 @@ return new XDocument(
 );
 
 ```
+-->
 
 Caso não tenhamos estoque no sistema, geraremos o pedido de compra para o fornecedor (pois trabalharemos com estoque virtual) que irá nos notificar o prazo que o produto estará disponível para envio ao cliente (conforme informação anterior de campos preenchidos com dados para contato com cliente).
 
